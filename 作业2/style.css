@@ -1,0 +1,90 @@
+body {
+    border: 1px solid black;/*边框定义，1px实体黑色边框*/
+    width: 450px;/*宽度*/
+}
+
+form {/*表单*/
+    background-color: rgb(241, 236, 236);/*背景颜色*/
+    background-position: center center;/*背景位置正中*/
+    background-attachment: fixed;/*其余部分滚动时，背景图像不动*/
+}
+
+div {
+    margin: 5px 15px;/*外边距上下5px 左右15px*/
+    font-size: 1.1rem;/*1.1倍根元素字体大小*/
+}
+
+.caption h3 {/*最上面的标题：欢迎注册会员*/
+    text-align: left;/*文字居左*/
+    margin: 5px 15px;/*外边距上下5px 左右15px*/
+    color: rgb(15, 92, 236);/*颜色：蓝色*/
+}
+
+.Input input {/*input类里的input属性大部分是输入框，手机号码，密码，验证码等*/
+    width: 200px;/*宽度*/
+    padding-left: 20px;/*左内边距*/
+    margin-left: 10px;/*左外边距*/
+}
+.email input{/*邮件输入框*/
+    width: 200px;/*宽度*/
+    padding-left: 20px;/*左内边距*/
+    margin-left: 16px;/*左外边距*/
+}
+
+.Input span,
+.email span {/*input类和邮件类里的span标签，这里是输入框后的必填字样*/
+    color: red;/*红色*/
+}
+
+#msg {/*工资进度条id*/
+    color: black;
+}
+
+.sex input {/*性别单选框*/
+    width: 50px;
+}
+
+.birthday input,
+.age input {/*生日和年龄输入框*/
+    width: 200px;/*宽度*/
+    padding-left: 20px;/*左内边距*/ 
+    margin-left: 5px;/*左外边距*/
+}
+
+.favorite input {/*喜好复选框*/
+    width: 20px;
+}
+
+.photo input {/*照片框*/
+    width: 200px;
+    margin-left: 5px;
+}
+
+#test-image-preview {/*照片演示框*/
+    margin-left: 100px;
+}
+
+select {/*选择框*/
+    width: 220px;
+    padding-left: 20px;
+    margin-left: 5px;
+}
+
+select.jiguan {/*籍贯选择框*/
+    width: 105px;
+
+}
+
+.cv span {/*个人简历字体标签*/
+    position: relative;/*相对定位*/
+    bottom: 75px;/*底部距离，这样个人简历四个字就会位于文本框中间*/
+}
+
+.cv textarea {/*简历文本框*/
+    margin-left: 20px;
+}
+
+
+.button {/*底部按钮*/
+    padding: 0px 100px;/*内边距上下0左右100px*/
+}
